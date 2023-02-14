@@ -1,0 +1,21 @@
+.grid {
+    display: grid;
+    grid-template-rows: 50px 150px;
+    grid-template-columns: 100px 100px 100px 100px;
+    background: lightcoral;
+    border: 1px solid red;
+}
+.caja {
+    background: lightblue;
+    border: 2px solid black;
+    height: 50px;
+    width: 100px;
+}
+.caja:nth-child(5){
+    background: red;
+    height: 150px;
+}
+.caja:nth-child(6){
+    background: red;
+    height: 150px;
+}

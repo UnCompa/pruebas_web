@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: linear-gradient(-45deg,#888,#000);
+}
+@font-face  {
+    font-family: 'pusab';
+    src: url("pusab/pusab.otf") format("opentype");
+}
+header {
+    height: 3%;
+    width: 100%;
+    background: #111;
+}
+img {
+    position: relative;
+    left: 3%;
+    height: 50px;
+    width: 50px;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #333;
+    border-radius: 10px; 
+    padding: 10px;
+    width: 70%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'pusab',sans-serif;
+}
+.back {
+    background-image: url("back.jpeg");
+    width: 100%;
+    height: 8em;
+    background-attachment: fixed;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: -10px;
+    left: 5%;
+    background: white;
+    border-radius: 10px;
+    height: 100vh;
+    width: 90%;
+}
+h3 {
+    font-family: 'pusab',sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+p {
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    padding: 10px;
+}
+h3 {
+    font-family: 'pusab',sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+h4 {
+    font-family: 'pusab', sans-serif;
+    text-align: justify;
+    padding: 10px;
+}
